@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/style/style.css" />
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a0b0b;
+        }
+        form {
+            background-color: #fafaf6;
+            border-radius: 5px;
+            padding: 20px;
+            width: 50%;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"] {
+            background-color: #7e054e;
+            color: #0f28c8;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+        
+    </style>
+</head>
+<nav>
+    <ul>
+      <li>
+        <li><a href="index.html">Index</a></li>
+                <li><a href="Athletes.html">Athletes</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="links.html">links</a></li>
+      </li>
+    </ul>
+  </nav> 
+<body>
+    <form>
+        <h2>Contact Details</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Part of Nike you like to learn more about</label>
+        <input type="text" id="subject" name="subject" required>
+    <p> If you insert your details here you can find out more and when the latest releases are!</p> 
+
+    <footer>
+
+    </footer>
+</body>
+</html>
